@@ -1,7 +1,9 @@
 plugins {
+    application
     kotlin("jvm")
     id("io.ktor.plugin")
     kotlin("plugin.serialization")
+    id("com.squareup.sqldelight")
 }
 group = "com.example"
 version = "0.0.1"
@@ -10,7 +12,7 @@ application {
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
-} 
+}
 
 val ktor_version: String by project
 val kotlin_version: String by project
