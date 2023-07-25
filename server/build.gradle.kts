@@ -14,6 +14,12 @@ application {
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
 }
 
+sqldelight {
+    database("ServerSideDatabase") {
+        packageName = "com.example.db"
+    }
+}
+
 val ktor_version: String by project
 val kotlin_version: String by project
 val logback_version: String by project
