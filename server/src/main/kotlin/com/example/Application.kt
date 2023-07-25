@@ -4,7 +4,6 @@ import com.example.data.repository.AuthRepository
 import io.ktor.server.application.*
 import com.example.plugins.*
 import com.example.token.JwtTokenService
-import com.example.token.TokenClaim
 import com.example.token.TokenConfig
 import org.litote.kmongo.coroutine.coroutine
 import org.litote.kmongo.reactivestreams.KMongo

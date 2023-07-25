@@ -7,7 +7,6 @@ import com.example.routing.signUp
 import com.example.token.JwtTokenService
 import com.example.token.TokenConfig
 import io.ktor.server.routing.*
-import io.ktor.server.response.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
 
