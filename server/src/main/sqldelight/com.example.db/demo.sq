@@ -1,0 +1,11 @@
+-- 定义一个名为 users 的表
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    email TEXT NOT NULL,
+    pw TEXT NOT NULL
+);
+
+-- 添加一些示例数据
+INSERT INTO users (username, email,pw) VALUES ('user1', 'user1@example.com','1234');
+INSERT INTO users (username, email,pw) VALUES ('user2', 'user2@example.com','4321');

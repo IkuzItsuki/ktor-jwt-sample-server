@@ -39,4 +39,15 @@ dependencies {
 
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+
+    implementation("com.squareup.sqldelight:core:1.5.5")
+    implementation("com.squareup.sqldelight:sqlite-driver:1.5.5")
+    // implementation("com.squareup.sqldelight:android-driver:1.5.5")
+    // implementation("com.squareup.sqldelight:android-paging-extensions:1.5.5")
+    // implementation("com.squareup.sqldelight:android-paging3-extensions:1.5.5")
+    implementation("com.squareup.sqldelight:coroutines-extensions:1.5.5")//Kotlin extension functions to expose SQLDelight's Query as a Flow
+    implementation("com.squareup.sqldelight:coroutines-extensions-jvm:1.5.5")
+    implementation("com.squareup.sqldelight:runtime:1.5.5")
+    implementation("com.squareup.sqldelight:runtime-jvm:1.5.5")
+    // implementation("com.squareup.sqldelight:jdbc-driver:1.5.5")
 }
